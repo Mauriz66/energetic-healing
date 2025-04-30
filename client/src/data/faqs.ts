@@ -8,56 +8,52 @@ export const faqs = {
   // FAQs for Plano Conexão Cigana
   planoConexao: [
     {
-      question: "Como funciona o plano de assinatura?",
-      answer: "O plano Conexão Cigana é uma assinatura mensal no valor de R$49,90. Ao assinar, você recebe automaticamente 5 perguntas mensais, desconto de 10% em todos os serviços, atendimento prioritário e acesso ao app exclusivo."
+      question: "Como funciona o Plano Conexão Cigana?",
+      answer: "O plano oferece 5 perguntas mensais garantidas, 10% de desconto em todos os serviços, atendimento prioritário e uma pergunta bônus no mês do seu aniversário. Tudo isso por R$49,90/mês."
     },
     {
-      question: "As perguntas mensais acumulam para o próximo mês?",
-      answer: "Não, as 5 perguntas mensais não são cumulativas. Recomendamos que utilize todas dentro do mês vigente para aproveitar ao máximo seu plano."
+      question: "Como faço para usar minhas perguntas mensais?",
+      answer: "Basta entrar em contato pelo WhatsApp informando que é assinante e deseja utilizar uma de suas perguntas mensais. O atendimento é prioritário para assinantes."
     },
     {
-      question: "Como funciona o app exclusivo para assinantes?",
-      answer: "Após assinar o plano, você receberá um link para download do aplicativo e um código de ativação. No app, terá acesso a um calendário interativo com dicas diárias, vídeos semanais com orientações espirituais e um ritual mensal exclusivo."
-    },
-    {
-      question: "Posso cancelar a assinatura quando quiser?",
-      answer: "Sim, você pode cancelar sua assinatura a qualquer momento. O acesso aos benefícios continuará ativo até o final do período já pago."
+      question: "Posso acumular as perguntas não utilizadas?",
+      answer: "As perguntas são válidas dentro do mês vigente e não acumulam para os meses seguintes. Recomendamos utilizar todas as suas perguntas para aproveitar ao máximo o benefício."
     }
   ],
   
-  // FAQs for Tarot
-  tarot: [
+  // FAQs for Cigano
+  cigano: [
     {
-      question: "Qual a diferença entre o jogo de 5 e o de 10 cartas?",
-      answer: "O jogo de 5 cartas é mais objetivo e focado em uma questão específica, ideal para decisões pontuais. Já o jogo de 10 cartas oferece uma análise mais profunda e abrangente, explorando diferentes aspectos da sua vida ou situação."
+      question: "Como me preparar para uma consulta com o baralho cigano?",
+      answer: "Prepare suas perguntas de forma clara e específica. Escolha um momento tranquilo para a consulta e mantenha a mente aberta para receber as mensagens. Não é necessário nenhum ritual especial."
     },
     {
-      question: "Como me preparar para uma consulta de tarot?",
-      answer: "Para aproveitar ao máximo sua consulta, reserve um momento tranquilo onde não será interrompido. Prepare suas perguntas com antecedência, sendo o mais específico possível. Mantenha a mente aberta para receber as orientações."
+      question: "Qual a diferença entre os tipos de jogos?",
+      answer: "O jogo de 5 cartas é ideal para questões específicas, enquanto o jogo completo oferece uma visão mais ampla da situação, abordando múltiplos aspectos e trazendo orientações mais detalhadas."
     },
     {
-      question: "Com que frequência posso fazer consultas?",
-      answer: "Recomendo um intervalo mínimo de 3 semanas entre consultas sobre o mesmo tema, para dar tempo às energias se manifestarem. Para temas diferentes, não há restrição, mas é importante não se tornar dependente das leituras."
+      question: "Com qual frequência posso consultar o baralho cigano?",
+      answer: "Recomendamos um intervalo mínimo de 15 dias entre consultas sobre o mesmo tema, para que as energias se assentem e você tenha tempo de trabalhar as orientações recebidas."
     },
     {
-      question: "As consultas online têm a mesma eficácia?",
-      answer: "Sim, as consultas online têm a mesma eficácia que as presenciais. A energia não está limitada pelo espaço físico, e a conexão espiritual acontece independentemente da distância."
+      question: "Como são realizadas as consultas?",
+      answer: "As consultas são realizadas online via WhatsApp. Você receberá a interpretação detalhada em áudio, e para o jogo completo, também enviamos fotos das cartas."
     }
   ],
   
   // FAQs for Leituras
   leituras: [
     {
-      question: "Qual o melhor momento para fazer uma leitura mensal?",
-      answer: "O ideal é fazer a leitura mensal nos últimos dias do mês anterior ou nos primeiros dias do mês em questão. Isso permite que você se planeje adequadamente e aproveite melhor as energias do período."
+      question: "Qual a diferença entre a leitura mensal e anual?",
+      answer: "A leitura mensal foca nas energias e tendências do mês, enquanto a leitura anual (ou de aniversário) oferece uma visão mais ampla dos ciclos e oportunidades para os próximos 12 meses."
     },
     {
-      question: "A leitura de aniversário precisa ser feita exatamente no dia do aniversário?",
-      answer: "Não necessariamente. A leitura pode ser feita até 15 dias antes ou após seu aniversário, pois esse é o período em que as energias do novo ciclo começam a se manifestar mais intensamente."
+      question: "Quando é o melhor momento para fazer a leitura mensal?",
+      answer: "Recomendamos fazer a leitura nos primeiros dias do mês ou na última semana do mês anterior, para melhor aproveitamento das previsões e orientações."
     },
     {
-      question: "Posso fazer uma leitura mensal e uma de aniversário no mesmo mês?",
-      answer: "Sim, é possível e até recomendável em seu mês de aniversário. A leitura de aniversário trará uma visão do ano inteiro, enquanto a mensal focará em detalhes específicos do mês em questão."
+      question: "A leitura de aniversário precisa ser feita exatamente no dia?",
+      answer: "Não, você pode fazer a leitura de aniversário até 30 dias antes ou depois da data do seu aniversário, pois as energias desse ciclo já estão atuantes nesse período."
     },
     {
       question: "Como aproveitar melhor as informações da leitura de ciclos?",
@@ -68,16 +64,16 @@ export const faqs = {
   // FAQs for Terapias
   terapias: [
     {
-      question: "Qual terapia é mais indicada para mim: Thetahealing ou Reiki?",
-      answer: "O Thetahealing é mais indicado para transformação de crenças limitantes, padrões de comportamento e traumas emocionais profundos. Já o Reiki é ideal para harmonização energética, equilíbrio dos chakras e promoção de bem-estar físico e emocional. Durante a consulta inicial, podemos avaliar juntos qual abordagem será mais benéfica para sua situação específica."
+      question: "Como funciona uma sessão online de terapia energética?",
+      answer: "As sessões são realizadas por videochamada. Você ficará em um ambiente tranquilo e receberá a terapia à distância, pois a energia não tem limitação espacial."
     },
     {
-      question: "Quantas sessões são necessárias para obter resultados?",
-      answer: "Cada pessoa responde de forma única às terapias energéticas. Algumas pessoas relatam mudanças significativas após uma única sessão, enquanto outras se beneficiam de um tratamento mais contínuo. Geralmente, recomendo um mínimo de 3 sessões para avaliar os resultados iniciais e, a partir daí, definirmos juntos a frequência ideal para seu caso."
+      question: "Qual a duração das sessões?",
+      answer: "As sessões de terapia têm duração média de 1 hora, podendo variar de acordo com a necessidade e o tipo de trabalho sendo realizado."
     },
     {
-      question: "Como são realizadas as sessões de terapia online?",
-      answer: "As sessões são realizadas via chamada de vídeo, onde conduzo o processo terapêutico à distância. No caso do Thetahealing, trabalharemos com diálogos e meditações guiadas. Para o Reiki, você ficará em posição confortável enquanto realizo a canalização e envio da energia. A eficácia é a mesma de uma sessão presencial, pois a energia não está limitada pelo espaço físico."
+      question: "Com qual frequência devo fazer as sessões?",
+      answer: "A frequência varia de acordo com sua necessidade e o tipo de questão sendo tratada. Geralmente, iniciamos com sessões semanais e ajustamos conforme sua evolução."
     },
     {
       question: "Posso combinar diferentes terapias com leituras oraculares?",
@@ -88,16 +84,16 @@ export const faqs = {
   // General FAQs
   gerais: [
     {
-      question: "Como são realizados os atendimentos?",
-      answer: "Todos os atendimentos são realizados online via WhatsApp (áudio ou texto para leituras) ou chamada de vídeo (para terapias energéticas). Essa modalidade oferece conforto, praticidade e a mesma eficácia dos atendimentos presenciais."
+      question: "Como funciona o atendimento online?",
+      answer: "Todos os atendimentos são realizados via WhatsApp, com a mesma qualidade de um atendimento presencial. Você receberá orientações detalhadas em áudio e, quando aplicável, fotos e materiais complementares."
     },
     {
-      question: "Qual a forma de pagamento?",
-      answer: "Aceitamos PIX, transferência bancária e cartões de crédito (via link de pagamento). O pagamento deve ser realizado após a confirmação do agendamento e antes do início da consulta ou terapia."
+      question: "Qual o prazo de retorno após o agendamento?",
+      answer: "O retorno para agendamentos é dado em até 24 horas úteis. Assinantes do Plano Conexão têm prioridade no agendamento."
     },
     {
-      question: "Quanto tempo preciso esperar para agendar uma consulta?",
-      answer: "O tempo de espera varia conforme a agenda. Assinantes do Plano Conexão Cigana têm prioridade no agendamento. Em geral, consultas podem ser agendadas em até 3-5 dias úteis, mas recomendamos sempre verificar a disponibilidade atual via WhatsApp."
+      question: "Como faço o pagamento dos serviços?",
+      answer: "Aceitamos PIX e transferência bancária. O pagamento deve ser realizado antes do atendimento para confirmar o agendamento."
     },
     {
       question: "É possível fazer perguntas sobre outras pessoas?",

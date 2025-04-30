@@ -1,56 +1,68 @@
 // Services data for homepage and other sections
 export const services = [
   {
-    title: "Jogos de Tarot",
+    title: "Baralho Cigano",
     description: "Consultas que revelam insights para momentos específicos ou questões pontuais",
     price: 107,
-    image: "https://images.unsplash.com/photo-1514513256673-87bd6a3413a4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&h=300&q=80",
-    path: "/tarot"
+    image: "/images/baralho-cigano-card.jpg",
+    path: "/baralho-cigano"
   },
   {
     title: "Leituras de Ciclos",
     description: "Análise profunda dos períodos mensais ou anuais para melhor planejamento",
     price: 107,
-    image: "https://images.unsplash.com/photo-1620283085439-39620a1e621b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&h=300&q=80",
+    image: "/images/leituras-card.jpg",
     path: "/leituras"
   },
   {
     title: "Terapias Energéticas",
     description: "Tratamentos que equilibram energias e promovem bem-estar interior",
     price: 250,
-    image: "https://images.unsplash.com/photo-1600618528240-fb9fc964b853?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&h=300&q=80",
+    image: "/images/terapias-card.jpg",
     path: "/terapias"
   }
 ];
 
 // Services details for individual pages
-export const tarotServices = {
-  jogoDe5Cartas: {
+export const ciganoServices = {
+  perguntaAvulsa: {
+    title: "Pergunta Específica",
+    price: 15,
+    duration: "15-20 minutos",
+    description: "Consulta rápida para uma questão pontual com o baralho cigano",
+    features: [
+      "1 pergunta específica",
+      "Resposta detalhada",
+      "Orientação prática"
+    ],
+    image: "/images/baralho-cigano-avulso.jpg"
+  },
+  jogo5Cartas: {
     title: "Jogo de 5 Cartas",
     price: 107,
-    discountPrice: 96.30,
-    duration: "35 minutos",
-    description: "Consulta focada em questões específicas com análise de 5 aspectos principais.",
+    duration: "40-50 minutos",
+    description: "Leitura intermediária para análise de situação ou período",
     features: [
-      "5 aspectos específicos da sua questão",
-      "Tendências para o futuro próximo",
-      "Energias ao seu redor",
-      "Conselhos práticos"
-    ]
+      "Visão geral da situação",
+      "Análise de influências",
+      "Orientações práticas",
+      "Gravação em áudio"
+    ],
+    image: "/images/baralho-cigano-5-cartas.jpg"
   },
-  jogoDe10Cartas: {
-    title: "Jogo de 10 Cartas",
+  jogoCompleto: {
+    title: "Jogo Completo",
     price: 170,
-    discountPrice: 153,
-    duration: "1 hora",
-    description: "Análise completa e detalhada para uma visão abrangente da situação.",
+    duration: "60-70 minutos",
+    description: "Leitura aprofundada com o baralho cigano para múltiplos aspectos",
     features: [
-      "10 aspectos detalhados da sua situação",
-      "Análise de tendências a médio prazo",
-      "Padrões energéticos mais profundos",
-      "Bloqueios e potenciais",
-      "Orientações detalhadas para os próximos passos"
-    ]
+      "Análise completa da situação",
+      "Múltiplos aspectos da vida",
+      "Orientações detalhadas",
+      "Gravação em áudio",
+      "Foto das cartas"
+    ],
+    image: "/images/baralho-cigano-completo.jpg"
   }
 };
 

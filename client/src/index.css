@@ -92,17 +92,17 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-serif;
+    @apply font-sans;
   }
 }
 
 @layer utilities {
   .font-dancing {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .font-serif {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .font-sans {
@@ -127,7 +127,7 @@
 
   .testimonial-card::before {
     content: '"';
-    @apply font-serif text-6xl absolute top-0 left-4 opacity-20 leading-none;
+    @apply font-sans text-6xl absolute top-0 left-4 opacity-20 leading-none;
   }
 
   .hero-pattern {

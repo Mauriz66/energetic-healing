@@ -8,7 +8,7 @@ import { Moon, Sun, Menu } from "lucide-react";
 const menuItems = [
   { path: "/", label: "Início" },
   { path: "/plano-conexao", label: "Conexão Cigana" },
-  { path: "/tarot", label: "Tarot" },
+  { path: "/baralho-cigano", label: "Baralho Cigano" },
   { path: "/leituras", label: "Leituras" },
   { path: "/terapias", label: "Terapias" },
   { path: "/sobre", label: "Sobre" },
@@ -30,6 +30,11 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Fechar o menu mobile quando o usuário navega para uma nova página
+  useEffect(() => {
+    setMobileMenuOpen(false);
+  }, [location]);
+
   return (
     <nav
       className={cn(
@@ -42,24 +47,24 @@ export function Navbar() {
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
           <Link href="/">
-            <a className="text-xl font-serif font-bold text-primary dark:text-secondary">
+            <a className="text-lg font-sans font-bold text-primary dark:text-secondary">
               <i className="fas fa-moon text-secondary dark:text-accent mr-2"></i>
               Terapias Oraculares
             </a>
           </Link>
 
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-3">
             {/* Theme Toggle */}
             <Button
               variant="ghost"
               size="icon"
               onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-              className="text-primary dark:text-secondary hover:text-accent dark:hover:text-accent"
+              className="text-primary dark:text-secondary hover:text-accent dark:hover:text-accent h-9 w-9"
             >
               {theme === "light" ? (
-                <Moon className="h-5 w-5" />
+                <Moon className="h-4 w-4" />
               ) : (
-                <Sun className="h-5 w-5" />
+                <Sun className="h-4 w-4" />
               )}
               <span className="sr-only">Toggle theme</span>
             </Button>
@@ -68,10 +73,10 @@ export function Navbar() {
             <Button
               variant="ghost"
               size="icon"
-              className="lg:hidden text-primary dark:text-secondary"
+              className="lg:hidden text-primary dark:text-secondary h-9 w-9"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
-              <Menu className="h-5 w-5" />
+              <Menu className="h-4 w-4" />
               <span className="sr-only">Toggle menu</span>
             </Button>
 
@@ -98,13 +103,13 @@ export function Navbar() {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-background dark:bg-muted shadow-lg p-4 absolute w-full">
-          <div className="flex flex-col space-y-3">
+        <div className="lg:hidden bg-background dark:bg-muted shadow-lg absolute w-full overflow-hidden max-h-[70vh] overflow-y-auto">
+          <div className="flex flex-col p-3">
             {menuItems.map((item) => (
               <Link key={item.path} href={item.path}>
                 <a
                   className={cn(
-                    "px-4 py-2 rounded transition-colors",
+                    "px-4 py-3 rounded transition-colors text-center my-1",
                     location === item.path
                       ? "bg-primary/10 dark:bg-primary/20 text-primary dark:text-secondary font-medium"
                       : "text-primary dark:text-secondary hover:bg-muted"

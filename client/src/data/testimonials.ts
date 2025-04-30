@@ -3,100 +3,114 @@ export const testimonials = {
   // Homepage testimonials
   home: [
     {
-      content: "As leituras são sempre precisas e me ajudam a encontrar clareza nos momentos de dúvida. O plano de assinatura vale cada centavo pelo acesso prioritário.",
-      author: "Mariana S.",
-      role: "Assinante há 8 meses"
+      content: "A consulta com o baralho cigano me trouxe muita clareza em um momento difícil. A leitura foi precisa e as orientações muito úteis.",
+      author: "Maria Silva",
+      role: "Cliente desde 2022"
     },
     {
-      content: "A terapia Thetahealing transformou minha relação com questões do passado. O atendimento online é tão eficaz quanto presencial. Recomendo fortemente.",
-      author: "Carlos R.",
-      role: "Cliente de terapias"
+      content: "O plano conexão cigana é incrível! Ter acesso a consultas mensais me ajuda a manter o equilíbrio e tomar melhores decisões.",
+      author: "João Santos",
+      role: "Assinante do Plano Conexão"
     },
     {
-      content: "A leitura de aniversário é incrível! Me dá uma visão completa do ano e me ajuda a me preparar para os desafios. Faço todos os anos.",
-      author: "Patricia L.",
-      role: "Cliente recorrente"
+      content: "As terapias energéticas transformaram minha vida. Sinto-me mais leve e conectada com meu propósito.",
+      author: "Ana Oliveira",
+      role: "Cliente de Terapias"
     }
   ],
   
   // Plano Conexão Cigana testimonials
   planoConexao: [
     {
-      content: "Assinar o Conexão Cigana foi a melhor decisão. As 5 perguntas mensais me ajudam a manter o foco e os descontos nas consultas maiores valem muito a pena.",
-      author: "Amanda T.",
-      role: "Assinante há 11 meses"
+      content: "O plano é um investimento incrível em autoconhecimento. As consultas mensais me ajudam a manter o foco e a clareza.",
+      author: "Carla Mendes",
+      role: "Assinante há 6 meses"
     },
     {
-      content: "O app exclusivo para assinantes é incrível! Os vídeos semanais e os rituais mensais têm me ajudado muito na minha evolução espiritual.",
-      author: "Roberto M.",
-      role: "Assinante há 5 meses"
+      content: "Adoro ter minhas perguntas respondidas todo mês. O desconto nos outros serviços também é ótimo!",
+      author: "Roberto Lima",
+      role: "Assinante há 3 meses"
+    },
+    {
+      content: "A qualidade do atendimento e a precisão das leituras são impressionantes. Vale muito a pena!",
+      author: "Patricia Souza",
+      role: "Assinante há 1 ano"
     }
   ],
   
-  // Tarot testimonials
-  tarot: [
+  // Cigano testimonials
+  cigano: [
     {
-      content: "O jogo de 5 cartas me deu exatamente a clareza que eu precisava para tomar uma decisão importante no trabalho. Preciso e direto ao ponto.",
-      author: "Marcos V."
+      content: "A leitura do baralho cigano foi reveladora. Cada carta trouxe uma mensagem importante para minha vida.",
+      author: "Fernanda Costa",
+      role: "Cliente de Consultas"
     },
     {
-      content: "Optei pelo jogo de 10 cartas para entender melhor minha vida amorosa. A profundidade da análise me surpreendeu e me ajudou a ver padrões que eu repetia.",
-      author: "Juliana P."
+      content: "Impressionante como as cartas ciganas captam a essência da situação. As orientações são sempre práticas e úteis.",
+      author: "Ricardo Alves",
+      role: "Cliente Recorrente"
     },
     {
-      content: "Faço leituras regularmente e sempre saio com insights valiosos. É incrível como as cartas revelam exatamente o que preciso ouvir no momento.",
-      author: "Paula R."
+      content: "O jogo completo me ajudou a ter uma visão clara do meu caminho. Recomendo muito!",
+      author: "Luciana Santos",
+      role: "Cliente de Jogos Completos"
     }
   ],
   
   // Leituras testimonials
   leituras: [
     {
-      content: "A leitura mensal se tornou parte da minha rotina. Ajuda-me a planejar melhor o mês e a aproveitar as energias disponíveis.",
-      author: "Fernanda M."
+      content: "A leitura mensal me ajuda a planejar melhor minha vida e entender os ciclos que estou vivendo.",
+      author: "Mariana Lima",
+      role: "Cliente de Leituras Mensais"
     },
     {
-      content: "A leitura de aniversário foi reveladora! Me preparou para desafios que enfrentei durante o ano e me ajudou a tomar decisões importantes com confiança.",
-      author: "Ricardo S."
+      content: "A leitura de aniversário foi um presente maravilhoso para mim mesma. Muito esclarecedora!",
+      author: "Paulo Ribeiro",
+      role: "Cliente de Leitura Anual"
     },
     {
-      content: "Combinar a leitura mensal com consultas pontuais tem sido perfeito para mim. O panorama mensal me dá direção, enquanto as consultas específicas me dão clareza.",
-      author: "Cláudia N."
+      content: "As leituras são sempre precisas e me ajudam a tomar decisões mais conscientes.",
+      author: "Sandra Martins",
+      role: "Cliente Recorrente"
     }
   ],
   
   // Terapias testimonials
   terapias: [
     {
-      content: "Depois de apenas três sessões de Thetahealing, consegui superar um bloqueio financeiro que me acompanhava há anos. Transformador!",
-      author: "Marcelo A."
+      content: "O ThetaHealing transformou minha forma de ver a vida. Sinto-me mais leve e positiva.",
+      author: "Beatriz Campos",
+      role: "Cliente de ThetaHealing"
     },
     {
-      content: "As sessões de Reiki online são surpreendentemente potentes. Sinto a energia fluindo mesmo à distância e os resultados são visíveis na minha saúde.",
-      author: "Luciana B."
+      content: "As sessões de Reiki me ajudaram a equilibrar as energias e melhorar minha saúde.",
+      author: "Carlos Eduardo",
+      role: "Cliente de Reiki"
     },
     {
-      content: "Combinar o Thetahealing com as leituras foi o que me fez realmente avançar. Um trabalho completo que transformou minha vida em muitos aspectos.",
-      author: "Gabriel P."
+      content: "A combinação de terapias energéticas com as leituras é perfeita para o autodesenvolvimento.",
+      author: "Amanda Soares",
+      role: "Cliente de Terapias"
     }
   ],
   
   // Sobre testimonials
   sobre: [
     {
-      content: "Sua sensibilidade e intuição são impressionantes. Cada consulta traz revelações que me ajudam a evoluir como pessoa.",
-      author: "Bianca R.",
-      role: "Cliente há 3 anos"
+      content: "A sensibilidade e profissionalismo são marcantes em cada atendimento.",
+      author: "Renata Oliveira",
+      role: "Cliente há 2 anos"
     },
     {
-      content: "A forma como você conduz as consultas transmite segurança e paz. Sua ética profissional é admirável.",
-      author: "Henrique L.",
-      role: "Cliente de terapias"
+      content: "Encontrei nas consultas a orientação que precisava para meu desenvolvimento espiritual.",
+      author: "Felipe Santos",
+      role: "Cliente Recorrente"
     },
     {
-      content: "Seu dom para interpretar as cartas e traduzir as mensagens de forma clara e aplicável ao cotidiano é único.",
-      author: "Sandra M.",
-      role: "Assinante do plano"
+      content: "A dedicação e o cuidado com cada cliente fazem toda a diferença.",
+      author: "Julia Mendes",
+      role: "Cliente desde 2021"
     }
   ]
 };
