@@ -1,8 +1,8 @@
 import { Link } from "wouter";
-import { ciganoServices } from "@/data/services";
-import { whatsappLinks } from "@/data/whatsapp-links";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { ciganoServices } from "../data/services";
+import { whatsappLinks } from "../data/whatsapp-links";
+import { Button } from "../components/ui/button";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "../components/ui/card";
 import { CheckCircle2 } from "lucide-react";
 
 export default function BaralhoCigano() {
