@@ -1,22 +1,15 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "wouter";
-import { useTheme } from "@/components/ThemeProvider";
-import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
-import { Moon, Sun, Menu } from "lucide-react";
+import { cn } from "../../lib/utils";
+import { Button } from "../ui/button";
+import { Menu } from "lucide-react";
 
 const menuItems = [
   { path: "/", label: "Início" },
-  { path: "/plano-conexao", label: "Conexão Cigana" },
   { path: "/baralho-cigano", label: "Baralho Cigano" },
-  { path: "/leituras", label: "Leituras" },
-  { path: "/terapias", label: "Terapias" },
-  { path: "/sobre", label: "Sobre" },
-  { path: "/contato", label: "Contato" },
 ];
 
 export function Navbar() {
-  const { theme, setTheme } = useTheme();
   const [location] = useLocation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -47,33 +40,16 @@ export function Navbar() {
       <div className="container mx-auto px-4 py-3">
         <div className="flex justify-between items-center">
           <Link href="/">
-            <a className="text-lg font-sans font-bold text-primary dark:text-secondary">
-              <i className="fas fa-moon text-secondary dark:text-accent mr-2"></i>
+            <a className="text-lg font-sans font-bold text-primary">
               Terapias Oraculares
             </a>
           </Link>
 
           <div className="flex items-center space-x-3">
-            {/* Theme Toggle */}
-            <Button
-              variant="ghost"
-              size="icon"
-              onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-              className="text-primary dark:text-secondary hover:text-accent dark:hover:text-accent h-9 w-9"
-            >
-              {theme === "light" ? (
-                <Moon className="h-4 w-4" />
-              ) : (
-                <Sun className="h-4 w-4" />
-              )}
-              <span className="sr-only">Toggle theme</span>
-            </Button>
-
             {/* Mobile Menu Toggle */}
             <Button
               variant="ghost"
-              size="icon"
-              className="lg:hidden text-primary dark:text-secondary h-9 w-9"
+              className="lg:hidden text-primary h-9 w-9"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
               <Menu className="h-4 w-4" />
@@ -88,8 +64,8 @@ export function Navbar() {
                     className={cn(
                       "transition-colors hover:text-accent",
                       location === item.path
-                        ? "text-accent dark:text-accent font-medium"
-                        : "text-primary dark:text-secondary"
+                        ? "text-accent font-medium"
+                        : "text-primary"
                     )}
                   >
                     {item.label}
@@ -103,7 +79,7 @@ export function Navbar() {
 
       {/* Mobile Menu */}
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-background dark:bg-muted shadow-lg absolute w-full overflow-hidden max-h-[70vh] overflow-y-auto">
+        <div className="lg:hidden bg-background shadow-lg absolute w-full overflow-hidden max-h-[70vh] overflow-y-auto">
           <div className="flex flex-col p-3">
             {menuItems.map((item) => (
               <Link key={item.path} href={item.path}>
@@ -111,8 +87,8 @@ export function Navbar() {
                   className={cn(
                     "px-4 py-3 rounded transition-colors text-center my-1",
                     location === item.path
-                      ? "bg-primary/10 dark:bg-primary/20 text-primary dark:text-secondary font-medium"
-                      : "text-primary dark:text-secondary hover:bg-muted"
+                      ? "bg-primary/10 text-primary font-medium"
+                      : "text-primary hover:bg-muted"
                   )}
                   onClick={() => setMobileMenuOpen(false)}
                 >

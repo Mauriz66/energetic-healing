@@ -2,6 +2,7 @@ import { Service } from '@/types/services';
 
 export const ciganoServices: Service[] = [
   {
+    id: "tiragem-basica",
     title: 'Tiragem Básica',
     description: 'Uma leitura simples e direta para suas dúvidas mais urgentes.',
     image: '/images/baralho-cigano/basico.jpg',
@@ -14,6 +15,7 @@ export const ciganoServices: Service[] = [
     ]
   },
   {
+    id: "tiragem-completa",
     title: 'Tiragem Completa',
     description: 'Uma leitura detalhada que abrange diferentes aspectos da sua vida.',
     image: '/images/baralho-cigano/completo.jpg',
@@ -26,6 +28,7 @@ export const ciganoServices: Service[] = [
     ]
   },
   {
+    id: "tiragem-amor",
     title: 'Tiragem do Amor',
     description: 'Foco especial em questões amorosas e relacionamentos.',
     image: '/images/baralho-cigano/amor.jpg',
