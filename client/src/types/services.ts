@@ -2,9 +2,9 @@ export interface Service {
   id: string;
   title: string;
   description: string;
-  duration: string;
-  price: number;
   image: string;
+  price: number;
+  duration: string;
   features: string[];
 }
 
